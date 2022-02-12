@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-color: #d8d7d7;
+    position: relative;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 100vh;
+}
+
+.title {
+   margin: 0;
+   /*padding: 10px auto;*/
+   width: 100%;
+   height: 200px;
+   background-image: url("images/cbd-chanvre-cannabis.jpg");
+   background-position: center; 
+   background-size: cover;
+   display: inline-block;
+   position: relative;
+   overflow: hidden;
+}
+
+.title img {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    width: 30%;
+    height: 90%;
+    
+
+    /* transform: translate(-50%, -50%); */
+}
+
+.separateur {
+    width: 60%;
+    height: 5px;
+    background-color: rgb(56, 55, 55);
+    margin: 50px auto;
+}
+
+.pres {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 80%;
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+    color: white;
+}
+
+
+
+/* PAGE PRODUITS */
+
+.container {
+    background-color: rgb(238, 235, 235);
+    position: relative;
+}
+
+#prod-title {
+    text-align: center;
+    background-image: url("images/cbd-chanvre-cannabis.jpg");
+    background-size: cover;
+}
+
+
+#prod-title h1{
+    display:inline-block;
+    background-image: url('images/Cannabis_leaf.svg');
+    background-size: 20px;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-color: rgba(201, 181, 67, 0.2);
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#produits {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 80%;
+}
+
+.produit {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    overflow: hidden;
+    background-color: rgb(228, 222, 222);
+    padding-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: .3s;
+}
+
+.produit:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.img-Produit {
+    max-width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.nom-produit h4{
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.produit-prix {
+    font-size: 1.2em;
+}
+
+.produit-prix span {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.btn-2-cart {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #111111;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+footer img {
+    filter: invert(1);
+    width:50px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.5em;
+    text-transform: capitalize;
+}
+
+
+@media screen and (max-width: 900px) {
+    .title {
+        height: 100px;
+    }
+    .title img {
+        width: 10%;
+    }
+}
+
+
+

@@ -1,0 +1,76 @@
+@import url("main.css");
+
+#prod-title {
+    text-align: center;
+    background-image: url("images/cbd-chanvre-cannabis.jpg");
+    background-size: cover;
+}
+
+
+#prod-title h1{
+    display:inline-block;
+    background-image: url('images/Cannabis_leaf.svg');
+    background-size: 20px;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-color: rgba(201, 181, 67, 0.2);
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#produits {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.produit {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    overflow: hidden;
+    background-color: rgb(228, 222, 222);
+    padding-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: .3s;
+}
+
+.produit:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.img-Produit {
+    max-width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.nom-produit h4{
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.produit-prix {
+    font-size: 1.2em;
+}
+
+.produit-prix span {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.btn-2-cart {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}

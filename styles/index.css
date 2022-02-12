@@ -1,0 +1,8 @@
+@import url("main.css");
+
+.separateur {
+    width: 60%;
+    height: 5px;
+    background-color: rgb(56, 55, 55);
+    margin: 50px auto;
+}

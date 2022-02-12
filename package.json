@@ -1,0 +1,13 @@
+{
+  "name": "nanou_web",
+  "version": "1.0.0",
+  "description": "Site WEb pour LEs Chanvriers Catalans",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Rouyer",
+  "license": "ISC"
+}
